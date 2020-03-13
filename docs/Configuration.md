@@ -378,10 +378,6 @@ module.exports = {
 }
 ```
 
-##### `stage`: `Number | false`
-
-*deprecated in v0.24.0 - use [`babel.proposals` config](#proposals-object--false) instead*
-
 ##### `config`: `Function`
 
 Finally, if you need *complete* control, provide a `babel.config()` function which will be given the generated config.

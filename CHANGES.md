@@ -1,3 +1,9 @@
+# `next` branch
+
+## Breaking Changes
+
+- Removed support for deprecated `babel.stage` and `webpack.uglify` config.
+
 # Unreleased (in `master`)
 
 ## Dependencies
