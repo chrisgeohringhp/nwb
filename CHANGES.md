@@ -2,7 +2,19 @@
 
 ## Breaking Changes
 
+- Node.js 8 is no longer supported; Node.js 10.13.0 is now the minimum required version, as per many of nwb's dependencies.
 - Removed support for deprecated `babel.stage` and `webpack.uglify` config.
+- file-loader v6.0.0 [changed its default hashing algorithm](https://github.com/webpack-contrib/file-loader/blob/master/CHANGELOG.md#600-2020-03-17).
+
+## Dependencies
+
+- chalk: v3.0.0 → [v4.0.0](https://github.com/chalk/chalk/releases/tag/v4.0.0)
+- file-loader: v4.3.0 → [v6.0.0](https://github.com/webpack-contrib/file-loader/blob/master/CHANGELOG.md#600-2020-03-17)
+- fs-extra: v8.1.0 → [v9.0.0](https://github.com/jprichardson/node-fs-extra/blob/master/CHANGELOG.md#900--2020-03-19)
+- karma: v4.4.1 → [v5.0.4](https://github.com/karma-runner/karma/blob/master/CHANGELOG.md#504-2020-04-30)
+- karma-mocha: v1.3.0 → [v2.0.1](https://github.com/karma-runner/karma-mocha/blob/master/CHANGELOG.md#201-2020-04-29)
+- terser-webpack-plugin v2.3.6 → [v3.0.0](https://github.com/webpack-contrib/terser-webpack-plugin/blob/master/CHANGELOG.md#300-2020-05-01)
+- url-loader: v2.3.0→ [v4.1.0](https://github.com/webpack-contrib/url-loader/blob/master/CHANGELOG.md)
 
 # Unreleased (in `master`)
 
